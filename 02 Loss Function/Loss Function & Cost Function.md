@@ -1,7 +1,7 @@
 # Loss Function, Cost Function & Error Function (Deep Learning)
 
-This README explains **Loss Functions, Cost Functions, and Error Functions** used in **Regression and Classification** problems in Machine Learning.  
-The explanations are written in an **exam-ready and beginner-friendly** manner.
+This README explains **Loss Functions, Cost Functions, and Error Functions** used in **Regression and Classification** problems in Deep Learning.  
+
 
 ---
 
@@ -23,8 +23,8 @@ The explanations are written in an **exam-ready and beginner-friendly** manner.
 
 ## 2. Types of Machine Learning Problems
 
-1. Regression – Continuous output  
-2. Classification – Discrete class output  
+1. Regression – Continuous numerical output  
+2. Classification – Discrete class output (Categorical Data)
 
 ---
 
@@ -112,9 +112,9 @@ Used for **Multi-Class Classification**.
 Loss:
 L(xᵢ, yᵢ) = − Σ yᵢⱼ log(ŷᵢⱼ)
 
----
 
-## 5. One-Hot Encoding Example
+
+ One-Hot Encoding Example
 
 Classes: Good, Bad, Neutral
 
@@ -122,9 +122,7 @@ Classes: Good, Bad, Neutral
 - Bad → [0, 1, 0]
 - Neutral → [0, 0, 1]
 
----
-
-## 6. Softmax Activation Function
+Softmax Activation Function
 
 Used in **multi-class classification**.
 
@@ -137,7 +135,7 @@ Properties:
 
 ---
 
-## 7. Quick Summary
+## 5. Quick Summary
 
 - Regression:
   - MSE
