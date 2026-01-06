@@ -175,6 +175,7 @@ $$
 
 ---
 
+
 ## Conclusion
 
 Activation functions introduce non-linearity into neural networks. ReLU is widely used, while its variants overcome limitations like dying neurons and poor convergence.
